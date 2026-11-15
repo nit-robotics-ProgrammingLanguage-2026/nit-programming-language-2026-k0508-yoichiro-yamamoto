@@ -15,6 +15,8 @@ int main(void)
     printf ("Go");
     if (0==n%7)
     printf ("!!");
+    if (!(0==n%3 || 0==n%5 || 0==n%7))
+    printf ("No");
     }
     return 0;
 }
