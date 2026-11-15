@@ -7,7 +7,7 @@ int main(void)
     if (n==0)
     printf ("No");
     else if (n<0)
-    printf ("NG");
+    printf ("Error");
     else{
     if (0==n%3)
     printf ("Up");
